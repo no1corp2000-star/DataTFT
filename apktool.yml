@@ -1,0 +1,18 @@
+version: 3.0.3
+apkFileName: DataTFT.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 24
+  targetSdkVersion: 33
+versionInfo:
+  versionCode: 1
+  versionName: 1
+resourcesInfo:
+  packageId: 127
+  keepRawValues: true
+doNotCompress:
+- arsc
+- png
+- res/mipmap-nodpi/app_icon_hdpi.ico
